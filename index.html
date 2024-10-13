@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQs Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="test-container">
+        <h1>Welcome to the MCQs Test</h1>
+        <form id="mcqTest" onsubmit="submitTest(event)">
+            <label for="studentName">Enter Your Name:</label>
+            <input type="text" id="studentName" required>
+
+            <h3>Question 1: What is the capital of France?</h3>
+            <input type="radio" name="q1" value="A"> A) Berlin<br>
+            <input type="radio" name="q1" value="B"> B) Paris<br>
+            <input type="radio" name="q1" value="C"> C) Madrid<br>
+
+            <h3>Question 2: 5 + 3 equals to?</h3>
+            <input type="radio" name="q2" value="A"> A) 6<br>
+            <input type="radio" name="q2" value="B"> B) 7<br>
+            <input type="radio" name="q2" value="C"> C) 8<br>
+
+            <button type="submit">Submit Test</button>
+        </form>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
